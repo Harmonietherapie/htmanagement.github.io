@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HT Management by Sarah</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css?v=1" />
+</head>
+
+<body>
+<header class="site-header">
+  <div class="brand">
+    <div class="monogram">HT</div>
+    <div class="brand-text">
+      <h1>HT Management</h1>
+      <p>by Sarah Michaux</p>
+    </div>
+  </div>
+
+  <button class="menu-toggle" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </button>
+
+  <nav id="nav">
+    <a href="#accueil">Accueil</a>
+    <a href="#services">Services</a>
+    <a href="#methode">Méthode</a>
+    <a href="#apropos">À propos</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="accueil" class="hero">
+  <h2>Leadership humain & performance durable</h2>
+  <p>
+    Mystery Shopping et accompagnement des managers pour améliorer l’expérience client
+    et renforcer les équipes sur le terrain.
+  </p>
+
+  <div class="hero-cta">
+    <a class="btn primary" href="#contact">Demander un échange</a>
+    <a class="btn ghost" href="#services">Voir les services</a>
+  </div>
+</section>
+
+<section id="services" class="section">
+  <h2>Services</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Mystery Shopping</h3>
+      <p>Visites mystères, analyse terrain et plan d’actions clair.</p>
+    </div>
+
+    <div class="card">
+      <h3>Coaching managers</h3>
+      <p>Leadership, posture managériale, communication et prévention du burn-out.</p>
+    </div>
+
+    <div class="card">
+      <h3>Accompagnement d’équipe</h3>
+      <p>Ateliers et suivi terrain adaptés à votre réalité.</p>
+    </div>
+  </div>
+</section>
+
+<section id="methode" class="section alt">
+  <h2>Ma méthode</h2>
+  <p style="text-align:center;max-width:700px;margin:auto;">
+    Observer – Restituer – Transformer.  
+    Une approche pragmatique, humaine et orientée résultats.
+  </p>
+</section>
+
+<section id="apropos" class="section">
+  <h2>À propos</h2>
+  <p style="max-width:700px;margin:auto;text-align:center;">
+    Je suis <strong>Sarah Michaux</strong>.  
+    J’accompagne les entreprises à renforcer leurs équipes et améliorer
+    l’expérience client, avec des outils concrets et une approche humaine.
+  </p>
+</section>
+
+<section id="contact" class="section contact">
+  <h2>Contact</h2>
+
+  <div class="contact-box">
+    <a href="mailto:srhmcx@outlook.be">📧 srhmcx@outlook.be</a><br><br>
+    <a href="https://calendly.com/srhmichaux/30min?locale=fr" target="_blank">
+      📅 Réserver un échange
+    </a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  © 2026 HT Management by Sarah
+</footer>
+
+<script>
+  function toggleMenu(){
+    document.getElementById('nav').classList.toggle('active');
+  }
+</script>
+</body>
+</html>
